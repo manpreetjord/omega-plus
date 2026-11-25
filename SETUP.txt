@@ -1,0 +1,11 @@
+Deploy to GitHub Pages (all files here are visible, nothing hidden)
+
+1. In your repo (manpreetjord/omega-plus) tap Add file > Upload files.
+   Upload index.html and README.md. Commit to main.
+2. Add file > Create new file. In the name box type exactly:
+   .github/workflows/pages.yml
+   (typing the slashes creates the folders). Paste the full contents of
+   pages.yml from this zip. Commit to main.
+3. Settings > Pages > Source: choose "GitHub Actions".
+4. Open the Actions tab; if the run failed, tap Re-run. After ~1 minute the site is at:
+   https://manpreetjord.github.io/omega-plus/
